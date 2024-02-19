@@ -59,7 +59,7 @@ class Library:
         lines = self.file.read().splitlines()
         for book in lines:
             info = book.split(",")
-            print(f"kitabın yazarı: {info[1]}, kitabın adı: {info[0]}")
+            print(f"author: {info[1]}, book name: {info[0]}")
 
 
 
